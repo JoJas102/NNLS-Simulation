@@ -17,4 +17,8 @@ Essential simulation and acquisition parameters can be edited and adjusted in [I
   * dRange[] and fRange[] = reasonable intervals for the random choice of f and d made by DiffParamRandomizer.m
 
 ## General information
+Simulation results and diffusion components estimates will be saved in the result subfolder.
+
+For any further comments or explaining descriptions see annotations inside the functions code files.
+
 MATLAB code will be added soon
