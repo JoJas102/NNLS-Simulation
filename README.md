@@ -6,8 +6,7 @@ Program to simulate influence of different parameters on NNLS (and NLLS) fitting
 This fitting routine also utilises the regularized NNLS algorithm with cross validation from Thorarin Bjarnason for comparison. Additionaly, the advanced fitting algorithm NNLS_AUC was implemented, incorporating area under curve (AUC) constraints into the NNLS fitting result to improve accuracy.
 
 For further information or citation purposes please refer to this publication:
-Jasse et al. Toward Optimal Fitting Parameters for Multi-Exponential DWI Image Analysis of the Human Kidney: A Simulation Study Comparing Different Fitting Algorithms. Mathematics 2024, 12, 609. (https://doi.org/10.3390/math12040609)[https://doi.org/10.3390/math12040609]
-
+Jasse et al. Toward Optimal Fitting Parameters for Multi-Exponential DWI Image Analysis of the Human Kidney: A Simulation Study Comparing Different Fitting Algorithms. Mathematics 2024, 12, 609. https://doi.org/10.3390/math12040609
 ## Initial variables mandatory
 Essential simulation and acquisition parameters can be edited and adjusted in [InitVar.m](InitVar.m):
 * numberOfIter = number of simulations/iteration steps, differentiation for single- or multi-plotting of results
