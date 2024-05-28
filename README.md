@@ -2,8 +2,8 @@
 
 ## Description
 
-Program to simulate influence of different parameters on NNLS fitting of diffusion data and compare multi-exponential fitting methods. Evaluating the reliability of finding the total number of components contributing to the corresponding multi-exponantial signal and analysing the results by calculating corresponding diffusion parameters, comparing those to the ground truth.\
-This fitting routine uses the regularized NNLS algorithm with cross validation from Thorarin Bjarnason for comparison.
+Program to simulate influence of different parameters on NNLS (and NLLS) fitting of diffusion data and compare multi-exponential fitting methods. Evaluating the reliability of finding the total number of components contributing to the corresponding multi-exponantial signal and analysing the results by calculating corresponding diffusion parameters, comparing those to the ground truth.\
+This fitting routine also utilises the regularized NNLS algorithm with cross validation from Thorarin Bjarnason for comparison.
 
 ## Initial variables mandatory
 Essential simulation and acquisition parameters can be edited and adjusted in [InitVar.m](InitVar.m):
@@ -17,7 +17,7 @@ Essential simulation and acquisition parameters can be edited and adjusted in [I
   * dRange[] and fRange[] = reasonable intervals for the random choice of f and d made by DiffParamRandomizer.m
 
 ## General information
-After initialisation of required varaibles, the NNLS_Simulation.m script can be run accordingly.
-Simulation results and diffusion components estimates will be saved in the result subfolder.
+After initialisation of required varaibles, the [NNLS_Simulation.m](NNLS_Simulation.m) script can be run accordingly.
+The simulation inputs, synthetic signal, simulation results and diffusion components estimates will be saved in the result subfolder.
 
 For any further comments or explaining descriptions see annotations inside the functions code files.
